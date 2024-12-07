@@ -32,7 +32,7 @@ public:
     void addEdge(int source, int destination, int weight)
     {
         adjMatrix[source][destination] = weight;
-        adjMatrix[destination][source] = weight; // Assuming undirected graph
+        // adjMatrix[destination][source] = weight; // Assuming undirected graph
     }
 
     // Utility function to find all paths between source and destination
